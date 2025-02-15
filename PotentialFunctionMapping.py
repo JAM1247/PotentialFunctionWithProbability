@@ -368,7 +368,7 @@ def main():
     print("Saved pde_convergence_heavy.png")
 
     overall_end = time.time()
-    print(f"\nALL DONE! Total script time ~{(overall_end - overall_start):.2f}s.")
+    print(f"\n Time: ~{(overall_end - overall_start):.2f}s.")
     print("Generated files:\n"
           "  1) potential_landscape_heavy.png\n"
           "  2) langevin_distribution_heavy.png\n"
